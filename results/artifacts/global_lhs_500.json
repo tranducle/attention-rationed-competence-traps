@@ -1,0 +1,133 @@
+{
+  "n_draws": 500,
+  "survival_fractions": {
+    "C1_hyst_ge_005": 0.962,
+    "C1_hyst_ge_010": 0.958,
+    "C2_mod_beats_all_gt_0": 1.0,
+    "C2_mod_gap_ge_008": 0.978,
+    "C3_g5_beats_singles_gt_0": 0.958,
+    "C3_g5_gain_ge_010": 0.832,
+    "C3_g5_beats_rt_gt_0": 1.0
+  },
+  "quantiles": {
+    "C1_hyst": [
+      0.125,
+      0.1816,
+      0.2146,
+      0.2426,
+      0.27
+    ],
+    "C2_gap": [
+      0.12,
+      0.12,
+      0.16,
+      0.16,
+      0.2
+    ],
+    "C3_gain": [
+      0.0061,
+      0.1904,
+      0.2101,
+      0.2255,
+      0.24
+    ],
+    "C3_rt_gain": [
+      0.03,
+      0.1008,
+      0.1069,
+      0.1132,
+      0.1204
+    ]
+  },
+  "prcc": [
+    {
+      "parameter": "alpha_ai",
+      "low": 0.65,
+      "high": 1.15,
+      "prcc_C1_hyst": 0.0573,
+      "prcc_C2_topo_gap": -0.2019,
+      "prcc_C3_gov_gain": 0.2154
+    },
+    {
+      "parameter": "alpha_p",
+      "low": 0.1,
+      "high": 0.18,
+      "prcc_C1_hyst": -0.1312,
+      "prcc_C2_topo_gap": 0.1122,
+      "prcc_C3_gov_gain": 0.0249
+    },
+    {
+      "parameter": "delta",
+      "low": 0.13,
+      "high": 0.23,
+      "prcc_C1_hyst": -0.0688,
+      "prcc_C2_topo_gap": -0.0729,
+      "prcc_C3_gov_gain": -0.0071
+    },
+    {
+      "parameter": "tau_v",
+      "low": 0.14,
+      "high": 0.21,
+      "prcc_C1_hyst": 0.2164,
+      "prcc_C2_topo_gap": -0.5201,
+      "prcc_C3_gov_gain": 0.3915
+    },
+    {
+      "parameter": "kappa0",
+      "low": 0.038,
+      "high": 0.078,
+      "prcc_C1_hyst": -0.044,
+      "prcc_C2_topo_gap": 0.3738,
+      "prcc_C3_gov_gain": -0.002
+    },
+    {
+      "parameter": "sigma0",
+      "low": 0.2,
+      "high": 0.4,
+      "prcc_C1_hyst": 0.3916,
+      "prcc_C2_topo_gap": 0.684,
+      "prcc_C3_gov_gain": -0.0145
+    },
+    {
+      "parameter": "p_esc",
+      "low": 0.35,
+      "high": 0.65,
+      "prcc_C1_hyst": 0.016,
+      "prcc_C2_topo_gap": -0.0501,
+      "prcc_C3_gov_gain": 0.0095
+    },
+    {
+      "parameter": "mu0",
+      "low": 0.64,
+      "high": 0.78,
+      "prcc_C1_hyst": 0.8378,
+      "prcc_C2_topo_gap": 0.1951,
+      "prcc_C3_gov_gain": 0.5724
+    },
+    {
+      "parameter": "K_m",
+      "low": 0.62,
+      "high": 0.82,
+      "prcc_C1_hyst": -0.601,
+      "prcc_C2_topo_gap": -0.0983,
+      "prcc_C3_gov_gain": -0.1961
+    },
+    {
+      "parameter": "phi_e",
+      "low": 0.15,
+      "high": 0.25,
+      "prcc_C1_hyst": -0.0262,
+      "prcc_C2_topo_gap": 0.0416,
+      "prcc_C3_gov_gain": -0.0372
+    },
+    {
+      "parameter": "B",
+      "low": 0.9,
+      "high": 1.1,
+      "prcc_C1_hyst": 0.5218,
+      "prcc_C2_topo_gap": 0.3565,
+      "prcc_C3_gov_gain": -0.0851
+    }
+  ],
+  "runtime_sec": 2815.633
+}

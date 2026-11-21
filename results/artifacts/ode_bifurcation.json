@@ -1,0 +1,76 @@
+{
+  "d_collapse_mod": 0.48,
+  "d_recovery_mod": 0.42,
+  "hyst_width_mod": 0.06,
+  "max_hyst_Q_canon": 0.22556101646647714,
+  "max_hyst_Q_zero_tau": 4.312508128379022e-09,
+  "max_hyst_Q_zero_delta": 0.0,
+  "bbw_Y_sr_1_5": 1.0951993791739947,
+  "bbw_Y_lr_121_160": 0.720648275654636,
+  "bbw_Y_baseline_d0": 1.0,
+  "bbw_sr_gain": 0.09519937917399468,
+  "bbw_lr_drop_vs_d0": -0.27935172434536404,
+  "runtime_sec": 2.24,
+  "tan2026_scalar_baseline": {
+    "max_hyst_Q": 0.0,
+    "unique_equilibrium": true,
+    "points": [
+      {
+        "d": 0.0,
+        "v_star": 0.0,
+        "Q_tan": 0.46,
+        "Y_tan": 1.0
+      },
+      {
+        "d": 0.25,
+        "v_star": 0.11,
+        "Q_tan": 0.4955,
+        "Y_tan": 1.1669
+      },
+      {
+        "d": 0.5,
+        "v_star": 0.27,
+        "Q_tan": 0.5424,
+        "Y_tan": 1.3209
+      },
+      {
+        "d": 0.75,
+        "v_star": 0.5,
+        "Q_tan": 0.612,
+        "Y_tan": 1.4704
+      },
+      {
+        "d": 1.0,
+        "v_star": 1.0,
+        "Q_tan": 0.81,
+        "Y_tan": 1.65
+      }
+    ]
+  },
+  "fine_grid_0005_widths_N30": {
+    "cent": {
+      "d_collapse_fine": 0.26,
+      "d_recovery_fine": 0.225,
+      "width_fine": 0.035,
+      "hyst_gt_005_span": 0.035
+    },
+    "pool": {
+      "d_collapse_fine": 0.315,
+      "d_recovery_fine": 0.255,
+      "width_fine": 0.06,
+      "hyst_gt_005_span": 0.06
+    },
+    "mat": {
+      "d_collapse_fine": 0.33,
+      "d_recovery_fine": 0.265,
+      "width_fine": 0.065,
+      "hyst_gt_005_span": 0.065
+    },
+    "mod": {
+      "d_collapse_fine": 0.48,
+      "d_recovery_fine": 0.41,
+      "width_fine": 0.07,
+      "hyst_gt_005_span": 0.07
+    }
+  }
+}

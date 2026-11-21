@@ -1,0 +1,47 @@
+{
+  "T4_d010_coach_relief_placebo": {
+    "Q_base": 0.781787,
+    "Q_coach_relief": 0.783901,
+    "diff": 0.002114,
+    "pass_lt_002": true
+  },
+  "T11_d020_tuned_G5_placebo": {
+    "g_star_d020": 0.9683,
+    "Q_base": 0.774898,
+    "Q_G5_tuned": 0.774946,
+    "diff": 4.9e-05,
+    "pass_lt_002": true
+  },
+  "T13_ex_ante_auc_crossover": [
+    {
+      "ex_ante_auc": 0.55,
+      "q_star": 0.4062,
+      "Q": 0.7266,
+      "Y": 1.1082
+    },
+    {
+      "ex_ante_auc": 0.6,
+      "q_star": 0.4062,
+      "Q": 0.7266,
+      "Y": 1.1198
+    },
+    {
+      "ex_ante_auc": 0.7,
+      "q_star": 0.4062,
+      "Q": 0.7268,
+      "Y": 1.1438
+    },
+    {
+      "ex_ante_auc": 0.8,
+      "q_star": 0.4062,
+      "Q": 0.7269,
+      "Y": 1.169
+    },
+    {
+      "ex_ante_auc": 0.85,
+      "q_star": 0.4062,
+      "Q": 0.727,
+      "Y": 1.1821
+    }
+  ]
+}

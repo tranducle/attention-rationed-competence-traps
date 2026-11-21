@@ -1,0 +1,420 @@
+{
+  "sources": {
+    "final_data_csv_sha256": "430055b4633eaaf87879bb38eb4b1c9425b91e1d7f529029dc1883e33d91df0a",
+    "gpt_answers_full_csv_sha256": "728858e1009b8719dd325993badc56e8363085e429316cb0ed04eaefdae3820b"
+  },
+  "sample_counts": {
+    "full_rows": 3255,
+    "nonhonors_rows": 2899,
+    "primary_complete_case_N": 2848,
+    "primary_distinct_students": 825,
+    "primary_classes_G": 44,
+    "control_part2_mean": 0.28465160075329565,
+    "control_part3_mean": 0.32375805234209193,
+    "control_part3_sd": 0.27716132950904193
+  },
+  "primary_part2_itt": {
+    "N": 2848,
+    "G_clusters": 44,
+    "r2": 0.38943058448719625,
+    "vars": {
+      "GPTBase": {
+        "coef": 0.1370176956571941,
+        "se_cluster": 0.030984885375010023,
+        "p_cluster": 6.545929881853556e-05,
+        "ci95_cluster": [
+          0.07628732032217445,
+          0.19774807099221375
+        ],
+        "ci95_wild_boot": [
+          0.07728909745758353,
+          0.19696522147281995
+        ],
+        "p_wild_boot": 0.0
+      },
+      "GPTTutor": {
+        "coef": 0.36128085268688964,
+        "se_cluster": 0.031728640738959146,
+        "p_cluster": 1.4520680446032534e-14,
+        "ci95_cluster": [
+          0.2990927168385297,
+          0.42346898853524956
+        ],
+        "ci95_wild_boot": [
+          0.3029186836756806,
+          0.42138120796003015
+        ],
+        "p_wild_boot": 0.0
+      }
+    }
+  },
+  "primary_part3_itt": {
+    "N": 2848,
+    "G_clusters": 44,
+    "r2": 0.38603414361611144,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.05434633764103384,
+        "se_cluster": 0.022438489718889877,
+        "p_cluster": 0.01972394732015714,
+        "ci95_cluster": [
+          -0.098325777490058,
+          -0.01036689779200968
+        ],
+        "ci95_wild_boot": [
+          -0.09667546329518402,
+          -0.011425432865360885
+        ],
+        "p_wild_boot": 0.012
+      },
+      "GPTTutor": {
+        "coef": -0.004317757173922859,
+        "se_cluster": 0.01338498365864404,
+        "p_cluster": 0.748574995441801,
+        "ci95_cluster": [
+          -0.030552325144865174,
+          0.02191681079701946
+        ],
+        "ci95_wild_boot": [
+          -0.029794479750405754,
+          0.021379216215051716
+        ],
+        "p_wild_boot": 0.7447
+      }
+    }
+  },
+  "pretreatment_gpa_balance": {
+    "N": 825,
+    "G_clusters": 44,
+    "r2": 0.19906636167967784,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.002897703382324965,
+        "se_cluster": 0.019590705962718755,
+        "p_cluster": 0.8831035250434084,
+        "ci95_cluster": [
+          -0.04129548706925373,
+          0.0355000803046038
+        ],
+        "ci95_wild_boot": [
+          -0.0396523326227671,
+          0.03329496566020622
+        ],
+        "p_wild_boot": 0.8839
+      },
+      "GPTTutor": {
+        "coef": -0.010212126709992901,
+        "se_cluster": 0.012920236312084549,
+        "p_cluster": 0.4336330922043804,
+        "ci95_cluster": [
+          -0.03553578988167862,
+          0.015111536461692813
+        ],
+        "ci95_wild_boot": [
+          -0.034690080261942806,
+          0.014579012635513646
+        ],
+        "p_wild_boot": 0.4262
+      }
+    }
+  },
+  "robustness_part3_compliers": {
+    "N": 2805,
+    "G_clusters": 44,
+    "r2": 0.38453990562223184,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.05407200290782767,
+        "se_cluster": 0.022296937909380827,
+        "p_cluster": 0.01957821049341698,
+        "ci95_cluster": [
+          -0.0977740012102141,
+          -0.010370004605441248
+        ],
+        "ci95_wild_boot": [
+          -0.09619002192615358,
+          -0.011516397856811224
+        ],
+        "p_wild_boot": 0.0122
+      },
+      "GPTTutor": {
+        "coef": -0.004376852711527362,
+        "se_cluster": 0.01332130834366701,
+        "p_cluster": 0.7440828434015899,
+        "ci95_cluster": [
+          -0.030486617065114702,
+          0.02173291164205998
+        ],
+        "ci95_wild_boot": [
+          -0.02985805209234781,
+          0.021127119465297616
+        ],
+        "p_wild_boot": 0.7399
+      }
+    }
+  },
+  "robustness_part3_with_honors": {
+    "N": 3200,
+    "G_clusters": 50,
+    "r2": 0.4332248685961252,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.06385112531797522,
+        "se_cluster": 0.026490855458048256,
+        "p_cluster": 0.019737268488669732,
+        "ci95_cluster": [
+          -0.11577320201574981,
+          -0.011929048620200645
+        ],
+        "ci95_wild_boot": [
+          -0.11426519022542331,
+          -0.01257963087555499
+        ],
+        "p_wild_boot": 0.0114
+      },
+      "GPTTutor": {
+        "coef": 0.001356522881618489,
+        "se_cluster": 0.017892835556675566,
+        "p_cluster": 0.9398759764162058,
+        "ci95_cluster": [
+          -0.03371343480946562,
+          0.03642648057270259
+        ],
+        "ci95_wild_boot": [
+          -0.03256295824853219,
+          0.03631385160286522
+        ],
+        "p_wild_boot": 0.9387
+      }
+    }
+  },
+  "robustness_part3_no_gpa": {
+    "N": 2898,
+    "G_clusters": 44,
+    "r2": 0.1512105087717065,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.05994611132805333,
+        "se_cluster": 0.04227937930080458,
+        "p_cluster": 0.16343895012763776,
+        "ci95_cluster": [
+          -0.1428136947576303,
+          0.02292147210152365
+        ],
+        "ci95_wild_boot": [
+          -0.14048565251710587,
+          0.019987796540363003
+        ],
+        "p_wild_boot": 0.15
+      },
+      "GPTTutor": {
+        "coef": -0.01752195216030666,
+        "se_cluster": 0.026092325827380074,
+        "p_cluster": 0.5054706652939877,
+        "ci95_cluster": [
+          -0.0686629107819716,
+          0.03361900646135828
+        ],
+        "ci95_wild_boot": [
+          -0.06832729997559028,
+          0.032699650618412464
+        ],
+        "p_wild_boot": 0.497
+      }
+    }
+  },
+  "robustness_part2_minimal_stratum_fe": {
+    "N": 2849,
+    "G_clusters": 44,
+    "r2": 0.32651604193391626,
+    "vars": {
+      "GPTBase": {
+        "coef": 0.20286237936375848,
+        "se_cluster": 0.0332338269784228,
+        "p_cluster": 2.5800431637793387e-07,
+        "ci95_cluster": [
+          0.13772407848604978,
+          0.26800068024146717
+        ],
+        "ci95_wild_boot": [
+          0.13872379637246318,
+          0.26646147928792485
+        ],
+        "p_wild_boot": 0.0
+      },
+      "GPTTutor": {
+        "coef": 0.3850298019146502,
+        "se_cluster": 0.03583343445269398,
+        "p_cluster": 9.322016688437266e-14,
+        "ci95_cluster": [
+          0.31479627038737,
+          0.4552633334419304
+        ],
+        "ci95_wild_boot": [
+          0.3163401790149276,
+          0.4547085829317796
+        ],
+        "p_wild_boot": 0.0
+      }
+    }
+  },
+  "robustness_part3_minimal_stratum_fe": {
+    "N": 2849,
+    "G_clusters": 44,
+    "r2": 0.3361930869322035,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.014921445921842968,
+        "se_cluster": 0.02198195947085803,
+        "p_cluster": 0.5008992882848726,
+        "ci95_cluster": [
+          -0.0580060864847247,
+          0.028163194641038766
+        ],
+        "ci95_wild_boot": [
+          -0.056707277034272724,
+          0.02740660216170843
+        ],
+        "p_wild_boot": 0.4987
+      },
+      "GPTTutor": {
+        "coef": 0.0003586349808079206,
+        "se_cluster": 0.019552084519595822,
+        "p_cluster": 0.9854504358325595,
+        "ci95_cluster": [
+          -0.037963450677599896,
+          0.03868072063921573
+        ],
+        "ci95_wild_boot": [
+          -0.03759799858080111,
+          0.03871684869187963
+        ],
+        "p_wild_boot": 0.9844
+      }
+    }
+  },
+  "robustness_part3_session1_only": {
+    "N": 756,
+    "G_clusters": 44,
+    "r2": 0.3354457724397102,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.006390819050922522,
+        "se_cluster": 0.04295332825949355,
+        "p_cluster": 0.8824187285432168,
+        "ci95_cluster": [
+          -0.09057934243952988,
+          0.07779770433768483
+        ],
+        "ci95_wild_boot": [
+          -0.08780457243660676,
+          0.07740127085630391
+        ],
+        "p_wild_boot": 0.8768
+      },
+      "GPTTutor": {
+        "coef": 0.04483857634454133,
+        "se_cluster": 0.03790506747625272,
+        "p_cluster": 0.24334105422681823,
+        "ci95_cluster": [
+          -0.029455355908914002,
+          0.11913250859799666
+        ],
+        "ci95_wild_boot": [
+          -0.029987254137616968,
+          0.11636399934569969
+        ],
+        "p_wild_boot": 0.244
+      }
+    }
+  },
+  "robustness_part3_student_collapsed": {
+    "N": 825,
+    "G_clusters": 44,
+    "r2": 0.47973272469668116,
+    "vars": {
+      "GPTBase": {
+        "coef": -0.010010680067687405,
+        "se_cluster": 0.023703974584925593,
+        "p_cluster": 0.6748952021468837,
+        "ci95_cluster": [
+          -0.056470470254141564,
+          0.03644911011876675
+        ],
+        "ci95_wild_boot": [
+          -0.05514667688437812,
+          0.03565592428983252
+        ],
+        "p_wild_boot": 0.6717
+      },
+      "GPTTutor": {
+        "coef": 8.485036139157989e-05,
+        "se_cluster": 0.021786537237494883,
+        "p_cluster": 0.9969105605690345,
+        "ci95_cluster": [
+          -0.04261676262409839,
+          0.04278646334688155
+        ],
+        "ci95_wild_boot": [
+          -0.04170348134899195,
+          0.042269842498532
+        ],
+        "p_wild_boot": 0.9973
+      }
+    }
+  },
+  "relative_and_standardized": {
+    "part2_gpt_base_rel": 0.48135227518339446,
+    "part2_gpt_tutor_rel": 1.2692036571401812,
+    "part3_gpt_base_rel": -0.1678609605163116,
+    "part3_gpt_base_cohen_d": -0.19608196330022612,
+    "part3_gpt_tutor_rel": -0.013336369991998205,
+    "part3_gpt_tutor_cohen_d": -0.01557849784301168
+  },
+  "prior_mapping_to_sd_model": {
+    "alpha_ai_canonical": 0.9,
+    "alpha_ai_lhs_bounds": [
+      0.65,
+      1.15
+    ],
+    "empirical_part2_rel_boost_base": 0.48135227518339446,
+    "implied_alpha_ai_at_x060": 0.8022537919723242,
+    "implied_alpha_ai_at_x075": 0.6418030335778593,
+    "empirical_part2_rel_boost_ge_040": true,
+    "alpha_p_canonical": 0.14,
+    "alpha_p_lhs_bounds": [
+      0.1,
+      0.18
+    ],
+    "canonical_solo_drop_at_x1": -0.09100000000000001,
+    "empirical_part3_rel_deficit_base": 0.1678609605163116,
+    "empirical_part3_rel_deficit_ge_010": true,
+    "phi_e_canonical": 0.2,
+    "phi_e_lhs_bounds": [
+      0.15,
+      0.25
+    ],
+    "raw_llm_error_rate_570_runs": 0.49122807017543857,
+    "note": "K5 anchors alpha_ai = r_P2 / x_eff (centered inside LHS [0.65, 1.15]), solo practice drop direction/magnitude alpha_p = 0.14 (LHS [0.10, 0.18]), and raw LLM error prevalence motivating tau_v and p_out (distinct from organizational OOD share phi_e = 0.20, LHS [0.15, 0.25])."
+  },
+  "gpt_error_audit": {
+    "problems": 57,
+    "total_responses": 570,
+    "total_correct": 290,
+    "raw_error_rate": 0.49122807017543857,
+    "logical_error_rate": 0.41578947368421054,
+    "arithmetic_error_rate": 0.07543859649122807
+  },
+  "k5_falsifier_checks": {
+    "part2_base_lb_ge_010": false,
+    "part3_base_abs_deficit_ge_004": true,
+    "part3_base_rel_deficit_ge_010": true,
+    "part3_base_ci_below_zero": true,
+    "part3_tutor_abs_lt_004": true,
+    "balance_gpa_base_p_ge_001": true,
+    "balance_gpa_tutor_p_ge_001": true,
+    "robust_minfe_p3_base_negative": true,
+    "robust_s1_p3_base_negative": true,
+    "robust_collapsed_p3_base_negative": true
+  }
+}

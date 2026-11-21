@@ -1,0 +1,103 @@
+{
+  "schema": "attention-rationed-traps-figure-data-manifest/v1",
+  "sources": {
+    "modular_N30_hysteresis_curves.csv": {
+      "bytes": 8168,
+      "sha256": "afb2b773a0d0b078c5c55b50743d70ba75e26cf375d76da4f4f9c116a766db0c"
+    },
+    "abm_bbw_trajectory_100seeds.csv": {
+      "bytes": 25705,
+      "sha256": "21a3f5673ad12197333a0346fe0df19c7804a4b2a1d3534671d1c5db7626270d"
+    },
+    "endogenous_d_controller.csv": {
+      "bytes": 25131,
+      "sha256": "c800a34e61ab17a9364ca681399a31112505d7fc1ebf928ad395cae14d77748a"
+    },
+    "mechanism_ablation_summary.csv": {
+      "bytes": 1847,
+      "sha256": "6f10fb0b5aa5e5bbff609d85dbd7d1f002378ea7c0f2a0f56bd0edfb0cf98020"
+    },
+    "topology_scaling_100seeds.csv": {
+      "bytes": 2466,
+      "sha256": "336a0056f628568f5435df7abe0a21ed8643987f34392c6dc95ff6f3de71efde"
+    },
+    "topology_channel_ablations.csv": {
+      "bytes": 620,
+      "sha256": "954b636a59880ebab669fc991ca5c219288c56504848b8ad66a535233dfc9f58"
+    },
+    "governance_auc_dose_100seeds.csv": {
+      "bytes": 724,
+      "sha256": "e3012ac1ec227c64699cd5d62057c91dea254e84995257ca459e097f13989aea"
+    },
+    "governance_xcap_dose_100seeds.csv": {
+      "bytes": 332,
+      "sha256": "b4fa2871b6207d8b937f1a11a9fe8c62944885f5057f4422a2d5f84d4f065747"
+    },
+    "governance_ablations_100seeds.csv": {
+      "bytes": 881,
+      "sha256": "ee192f33b35ba719d297004fe6ec0fc3aa26f1dda82fce071a8d2c476d03a76c"
+    },
+    "artifacts/abm_multi_topology.json": {
+      "bytes": 69101,
+      "sha256": "d1006cf98cf65dbae6de1ae79b32ec954db06d731ef91e348bcf032cb09133c9"
+    },
+    "artifacts/governance_tournament.json": {
+      "bytes": 92161,
+      "sha256": "d2523d87d2455d0890ecf7f52da50fa15e741179813443fbdbdcf24ad2ef1283"
+    },
+    "generate_figure_data.py": {
+      "bytes": 15596,
+      "sha256": "15cc8d33f3082cd7322ff434936acde6535608815b322d62bce2a744d07b8a18"
+    }
+  },
+  "outputs": {
+    "fig2a_hysteresis.csv": {
+      "bytes": 8737,
+      "sha256": "5de8d1eab60a5e15e8ac175b76d3d92a4fbb7b9b4a4b2ba35d7fd95222aa0ed8"
+    },
+    "fig2b_bbw.csv": {
+      "bytes": 9620,
+      "sha256": "1dacd8b724d9dfe2da4bfd85acd92670bc28cd372a1d3889ed5c6e570cc43cd5"
+    },
+    "fig2c_endogenous.csv": {
+      "bytes": 6237,
+      "sha256": "6feb7f4ce3dbc46be34fdf561c3c412b7dbde715fa48669af45ec57638c988db"
+    },
+    "fig3a_poisson_scaling.csv": {
+      "bytes": 179,
+      "sha256": "790091cee1d62c2174aebcc804011517fc662e2ec146df56df059e2cff248cfb"
+    },
+    "fig3b_bursty_scaling.csv": {
+      "bytes": 171,
+      "sha256": "a6c1d465161918740a0a51da9b98e2732f780714f3f5c724f33f0137c791305f"
+    },
+    "fig3c_reversal.csv": {
+      "bytes": 235,
+      "sha256": "df14baac8099e3f0e50b54f43e449f309d3452881610736e9112462c081316b3"
+    },
+    "fig4a_k4_forest.csv": {
+      "bytes": 608,
+      "sha256": "488f50b334ffcba505e6a47a6e876119978f4a553cd3f7cdc63614089b3df169"
+    },
+    "fig4b_k9_forest.csv": {
+      "bytes": 610,
+      "sha256": "cfe4a3ee434bac8978bd1bf72175a201c88522f069d1c8247d64054498b57901"
+    },
+    "fig4c_k12_forest.csv": {
+      "bytes": 563,
+      "sha256": "a656f6457ca278980c51333ac9e9e67010a252f4c784c8cef4324a7ff0aad6a7"
+    },
+    "fig5a_pareto.csv": {
+      "bytes": 1199,
+      "sha256": "05d6091c54650075fdc3cb13372bf069daa480a358dc6535c9f7f9061795d24b"
+    },
+    "fig5b_auc_dose.csv": {
+      "bytes": 724,
+      "sha256": "e3012ac1ec227c64699cd5d62057c91dea254e84995257ca459e097f13989aea"
+    },
+    "fig5c_xcap_dose.csv": {
+      "bytes": 332,
+      "sha256": "b4fa2871b6207d8b937f1a11a9fe8c62944885f5057f4422a2d5f84d4f065747"
+    }
+  }
+}

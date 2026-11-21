@@ -1,0 +1,8 @@
+y,contrast,label,delta,lo,hi
+1,G5_minus_RT_tuned_AUC050,G5 vs Random Thin (tun),0.0843,0.08389,0.08472
+2,G5_minus_RT_fixed_g_placebo,G5 vs Random Thin (fix),0.10086,0.10062,0.10109
+3,G5_minus_FL_tuned_frozen,G5 vs Frozen Learn (tun),0.11062,0.11011,0.11116
+4,synergy_2x2_G5_minus_RA_minus_QA,2x2 Quota x Route Synergy,0.13869,0.13796,0.13944
+5,G5_minus_RA_routing_alone,G5 vs Routing Alone,0.14478,0.14406,0.14552
+6,G5_minus_FL_fixed_g_frozen,G5 vs Frozen Learn (fix),0.20015,0.19989,0.2004
+7,G5_minus_QA_matched_quota,G5 vs Matched Quota,0.24815,0.24787,0.24841

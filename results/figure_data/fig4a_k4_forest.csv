@@ -1,0 +1,10 @@
+y,arm,label,delta,lo,hi
+1,placebo_ticket_id,Ticket-ID placebo,0.0,0.0,0.0
+2,concave_m1_fixed_seff,Joint $m{=}1$ and fixed speed,0.06857,0.06849,0.06865
+3,freeze_A_only,Freeze absorption $A$,0.0,0.0,0.0
+4,verify_relief_only,Verif. relief only,0.06658,0.06658,0.06658
+5,coach_relief_only,Coaching relief only,0.20358,0.20295,0.2042
+6,external_replacement,External replacement,0.28443,0.28397,0.28488
+7,zero_delta,Zero turnover ($\delta=0$),0.2843,0.28383,0.28475
+8,zero_tau_v,Zero verif. cost ($\tau_v=0$),0.28551,0.28551,0.28551
+9,zero_tau_and_zero_delta,Zero $\tau_v$ + Zero $\delta$,0.32672,0.32671,0.32672

@@ -1,0 +1,13 @@
+d_test,method,dt,max_transient_abs_diff_S,steady_abs_diff_S,steady_abs_diff_Q,transient_pass_lt_1e3,steady_pass_lt_1e6
+0.35,Euler,0.5,0.00110912,0.0,0.0,False,True
+0.35,Euler,0.25,0.00054601,0.0,0.0,True,True
+0.35,Euler,0.1,0.00021641,0.0,0.0,True,True
+0.35,Euler,0.05,0.00010788,0.0,0.0,True,True
+0.35,Euler,0.02,4.307e-05,0.0,0.0,True,True
+0.35,RK4,0.1,0.0,0.0,0.0,True,True
+0.75,Euler,0.5,0.01172879,0.0,0.0,False,True
+0.75,Euler,0.25,0.00575879,0.0,0.0,False,True
+0.75,Euler,0.1,0.00227904,0.0,0.0,False,True
+0.75,Euler,0.05,0.00113551,0.0,0.0,False,True
+0.75,Euler,0.02,0.00045325,0.0,0.0,True,True
+0.75,RK4,0.1,0.0,0.0,0.0,True,True

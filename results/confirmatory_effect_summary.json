@@ -1,0 +1,941 @@
+{
+  "meta": {
+    "confidence": 0.99,
+    "alpha_family": 0.01,
+    "bonferroni_comparisons": 27,
+    "bootstrap_resamples": 10000,
+    "seed": 20261119
+  },
+  "contrasts": {
+    "C1_K3_hyst_vs_tau0": {
+      "metric": "max_hyst_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.21648741999999999,
+      "method_sd": 0.007802338446642749,
+      "baseline_mean": 0.00015167,
+      "baseline_sd": 0.00013148860648878912,
+      "effect": 0.21633575,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.21348549,
+        0.21913454000000002
+      ],
+      "interval_t": [
+        0.21345027970666602,
+        0.21922122029333396
+      ],
+      "interval_decision": [
+        0.21345027970666602,
+        0.21922122029333396
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "max_hyst_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.216336,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C1_K4_zero_tau_v": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7460429999999999,
+      "method_sd": 0.0,
+      "baseline_mean": 0.46053235000000003,
+      "baseline_sd": 1.6768401621182186e-05,
+      "effect": 0.28551064999999987,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.2855046899999999,
+        0.2855168499999999
+      ],
+      "interval_t": [
+        0.2855044671360306,
+        0.2855168328639691
+      ],
+      "interval_decision": [
+        0.2855044671360306,
+        0.2855168499999999
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.285511,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C1_K4_zero_delta": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.74482927,
+      "method_sd": 0.002351285661015476,
+      "baseline_mean": 0.46053235000000003,
+      "baseline_sd": 1.6768401621182186e-05,
+      "effect": 0.28429691999999995,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.28350253,
+        0.28513929000000005
+      ],
+      "interval_t": [
+        0.28343581767065756,
+        0.28515802232934234
+      ],
+      "interval_decision": [
+        0.28343581767065756,
+        0.28515802232934234
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.284297,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C1_K4_coach_relief_only": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.66411563,
+      "method_sd": 0.0032047087819127486,
+      "baseline_mean": 0.46053235000000003,
+      "baseline_sd": 1.6768401621182186e-05,
+      "effect": 0.20358327999999992,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.20247992000000004,
+        0.2047017
+      ],
+      "interval_t": [
+        0.20240766677872593,
+        0.2047588932212739
+      ],
+      "interval_decision": [
+        0.20240766677872593,
+        0.2047588932212739
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.203583,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C1_K4_verify_relief_only": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.527113,
+      "method_sd": 0.0,
+      "baseline_mean": 0.46053235000000003,
+      "baseline_sd": 1.6768401621182186e-05,
+      "effect": 0.06658065000000002,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.06657469000000005,
+        0.06658685000000003
+      ],
+      "interval_t": [
+        0.06657446713603075,
+        0.06658683286396928
+      ],
+      "interval_decision": [
+        0.06657446713603075,
+        0.06658685000000003
+      ],
+      "threshold": 0.1,
+      "status": "below_threshold",
+      "pairs_at_or_above_threshold": 0,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.0665807,
+        "resolved": true
+      },
+      "findings": [
+        {
+          "code": "EFFECT_BELOW_MME",
+          "severity": "high",
+          "message": "the whole interval lies below the minimum meaningful effect 0.1"
+        }
+      ]
+    },
+    "C1_K4_external_replacement": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7449659599999999,
+      "method_sd": 0.0023492130636844923,
+      "baseline_mean": 0.46053235000000003,
+      "baseline_sd": 1.6768401621182186e-05,
+      "effect": 0.2844336099999999,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.28363992,
+        0.28527534
+      ],
+      "interval_t": [
+        0.2835732714634958,
+        0.28529394853650397
+      ],
+      "interval_decision": [
+        0.2835732714634958,
+        0.28529394853650397
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.284434,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_poisson_N15_mod_vs_maxrival": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.4926,
+      "method_sd": 0.011247446399296625,
+      "baseline_mean": 0.3464,
+      "baseline_sd": 0.012989506254175807,
+      "effect": 0.1462,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.14039999999999997,
+        0.15139999999999998
+      ],
+      "interval_t": [
+        0.1402990654379954,
+        0.1521009345620046
+      ],
+      "interval_decision": [
+        0.1402990654379954,
+        0.1521009345620046
+      ],
+      "threshold": 0.08,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.1462,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_poisson_N30_mod_vs_maxrival": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.49079999999999996,
+      "method_sd": 0.010413666234542214,
+      "baseline_mean": 0.33640000000000003,
+      "baseline_sd": 0.008706203523808749,
+      "effect": 0.15439999999999993,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.1496,
+        0.15979999999999994
+      ],
+      "interval_t": [
+        0.1490472222200576,
+        0.15975277777994226
+      ],
+      "interval_decision": [
+        0.1490472222200576,
+        0.15979999999999994
+      ],
+      "threshold": 0.08,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.1544,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_poisson_N60_mod_vs_maxrival": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.489,
+      "method_sd": 0.010396191999035428,
+      "baseline_mean": 0.33399999999999996,
+      "baseline_sd": 0.009211323729436774,
+      "effect": 0.15500000000000003,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.15039999999999992,
+        0.15980000000000005
+      ],
+      "interval_t": [
+        0.15026876816702267,
+        0.15973123183297738
+      ],
+      "interval_decision": [
+        0.15026876816702267,
+        0.15980000000000005
+      ],
+      "threshold": 0.08,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.155,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_poisson_N120_mod_vs_maxrival": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.48479999999999995,
+      "method_sd": 0.008584693919818564,
+      "baseline_mean": 0.3336,
+      "baseline_sd": 0.009376523445243022,
+      "effect": 0.15119999999999995,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.14679999999999993,
+        0.15579999999999994
+      ],
+      "interval_t": [
+        0.14624809259057245,
+        0.15615190740942744
+      ],
+      "interval_decision": [
+        0.14624809259057245,
+        0.15615190740942744
+      ],
+      "threshold": 0.08,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.1512,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_poisson_N30_mod_vs_mat": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.49079999999999996,
+      "method_sd": 0.010413666234542214,
+      "baseline_mean": 0.336,
+      "baseline_sd": 0.009428090415820638,
+      "effect": 0.15479999999999994,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.14979999999999993,
+        0.1604
+      ],
+      "interval_t": [
+        0.14919261681146834,
+        0.16040738318853154
+      ],
+      "interval_decision": [
+        0.14919261681146834,
+        0.16040738318853154
+      ],
+      "threshold": 0.08,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.1548,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_poisson_N30_mod_vs_pool": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.49079999999999996,
+      "method_sd": 0.010413666234542214,
+      "baseline_mean": 0.3218,
+      "baseline_sd": 0.010286796479865926,
+      "effect": 0.16899999999999998,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.1638,
+        0.17419999999999997
+      ],
+      "interval_t": [
+        0.16361703377736495,
+        0.17438296622263502
+      ],
+      "interval_decision": [
+        0.16361703377736495,
+        0.17438296622263502
+      ],
+      "threshold": 0.08,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.169,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_poisson_N30_mod_vs_cent": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.49079999999999996,
+      "method_sd": 0.010413666234542214,
+      "baseline_mean": 0.24760000000000001,
+      "baseline_sd": 0.017239841101707447,
+      "effect": 0.24319999999999994,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.23599999999999993,
+        0.2504
+      ],
+      "interval_t": [
+        0.2358839096467574,
+        0.25051609035324246
+      ],
+      "interval_decision": [
+        0.2358839096467574,
+        0.25051609035324246
+      ],
+      "threshold": 0.08,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.2432,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C2_K8_bursty_N120_mod_vs_maxrival": {
+      "metric": "d_collapse",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.349,
+      "method_sd": 0.020375267241229376,
+      "baseline_mean": 0.2926,
+      "baseline_sd": 0.044190130988351645,
+      "effect": 0.05639999999999995,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.0358,
+        0.0706
+      ],
+      "interval_t": [
+        0.03935724818395085,
+        0.07344275181604905
+      ],
+      "interval_decision": [
+        0.0358,
+        0.07344275181604905
+      ],
+      "threshold": 0.08,
+      "status": "below_threshold",
+      "pairs_at_or_above_threshold": 37,
+      "ledger_effect": {
+        "metric": "d_collapse",
+        "minimum_meaningful_effect": 0.08,
+        "observed": 0.0564,
+        "resolved": true
+      },
+      "findings": [
+        {
+          "code": "EFFECT_BELOW_MME",
+          "severity": "high",
+          "message": "the whole interval lies below the minimum meaningful effect 0.08"
+        }
+      ]
+    },
+    "C3_G5_vs_G1_unmanaged": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.46053235000000003,
+      "baseline_sd": 1.6768401621182186e-05,
+      "effect": 0.2542382499999999,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.2536730399999999,
+        0.25475057
+      ],
+      "interval_t": [
+        0.25369507850739714,
+        0.25478142149260263
+      ],
+      "interval_decision": [
+        0.2536730399999999,
+        0.25478142149260263
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.254238,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_G2_static_hitl": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.49376166,
+      "baseline_sd": 0.002057760463624611,
+      "effect": 0.22100893999999993,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.22017096000000003,
+        0.22184214999999996
+      ],
+      "interval_t": [
+        0.22013699198376513,
+        0.22188088801623473
+      ],
+      "interval_decision": [
+        0.22013699198376513,
+        0.22188088801623473
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.221009,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_G2_priority": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.49241768999999996,
+      "baseline_sd": 0.00018021831289586143,
+      "effect": 0.22235290999999996,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.22180407999999996,
+        0.22282723
+      ],
+      "interval_t": [
+        0.22182792304883311,
+        0.2228778969511668
+      ],
+      "interval_decision": [
+        0.22180407999999996,
+        0.2228778969511668
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.222353,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_RA_routing_alone": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.5699884000000001,
+      "baseline_sd": 0.003758728193999086,
+      "effect": 0.14478219999999986,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.14343952999999998,
+        0.14604390999999994
+      ],
+      "interval_t": [
+        0.14341832222443876,
+        0.14614607777556096
+      ],
+      "interval_decision": [
+        0.14341832222443876,
+        0.14614607777556096
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.144782,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_QA_matched_quota": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.46661998,
+      "baseline_sd": 0.0002771324658649037,
+      "effect": 0.24815061999999993,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.24761224999999992,
+        0.24863304999999997
+      ],
+      "interval_t": [
+        0.24762972174850167,
+        0.2486715182514982
+      ],
+      "interval_decision": [
+        0.24761224999999992,
+        0.2486715182514982
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.248151,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_FL_fixed_g_frozen": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.51462356,
+      "baseline_sd": 0.0006962921179615269,
+      "effect": 0.20014703999999994,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.1996392199999999,
+        0.20056722000000005
+      ],
+      "interval_t": [
+        0.1996626405658304,
+        0.20063143943416947
+      ],
+      "interval_decision": [
+        0.1996392199999999,
+        0.20063143943416947
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.200147,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_FL_frozen_learning": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.60414873,
+      "baseline_sd": 0.0031409151399333633,
+      "effect": 0.1106218699999999,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.10964740000000006,
+        0.11167068999999996
+      ],
+      "interval_t": [
+        0.10962630305403602,
+        0.11161743694596378
+      ],
+      "interval_decision": [
+        0.10962630305403602,
+        0.11167068999999996
+      ],
+      "threshold": 0.1,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.1,
+        "observed": 0.110622,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_RT_fixed_g_placebo": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.6139071899999999,
+      "baseline_sd": 0.0007565610217933283,
+      "effect": 0.10086340999999999,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.10040784999999997,
+        0.10132851999999992
+      ],
+      "interval_t": [
+        0.10040922024903817,
+        0.1013175997509618
+      ],
+      "interval_decision": [
+        0.10040784999999997,
+        0.10132851999999992
+      ],
+      "threshold": 0.05,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.05,
+        "observed": 0.100863,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_vs_RT_random_thinning": {
+      "metric": "ood_accuracy_Q",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 0.7147705999999999,
+      "method_sd": 0.0014785433795639971,
+      "baseline_mean": 0.63047208,
+      "baseline_sd": 0.0026450769390959803,
+      "effect": 0.08429851999999993,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.08348068000000008,
+        0.0850898699999999
+      ],
+      "interval_t": [
+        0.08349446219494248,
+        0.08510257780505738
+      ],
+      "interval_decision": [
+        0.08348068000000008,
+        0.08510257780505738
+      ],
+      "threshold": 0.05,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "ood_accuracy_Q",
+        "minimum_meaningful_effect": 0.05,
+        "observed": 0.0842985,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_Y_vs_G0_unassisted": {
+      "metric": "net_output_Y",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 1.2813423,
+      "method_sd": 0.01272801984210466,
+      "baseline_mean": 0.96072609,
+      "baseline_sd": 0.015939395420327452,
+      "effect": 0.32061620999999996,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.31793523999999995,
+        0.32371537000000006
+      ],
+      "interval_t": [
+        0.31757587527870595,
+        0.32365654472129396
+      ],
+      "interval_decision": [
+        0.31757587527870595,
+        0.32371537000000006
+      ],
+      "threshold": 0.02,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "net_output_Y",
+        "minimum_meaningful_effect": 0.02,
+        "observed": 0.320616,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_Y_vs_QA_quota_alone": {
+      "metric": "net_output_Y",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 1.2813423,
+      "method_sd": 0.01272801984210466,
+      "baseline_mean": 1.0593378900000001,
+      "baseline_sd": 0.02590732901954912,
+      "effect": 0.22200440999999982,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.21634018,
+        0.2280386700000001
+      ],
+      "interval_t": [
+        0.2158395529469248,
+        0.22816926705307483
+      ],
+      "interval_decision": [
+        0.2158395529469248,
+        0.22816926705307483
+      ],
+      "threshold": 0.02,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "net_output_Y",
+        "minimum_meaningful_effect": 0.02,
+        "observed": 0.222004,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_Y_vs_EA_ex_ante": {
+      "metric": "net_output_Y",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 1.2813423,
+      "method_sd": 0.01272801984210466,
+      "baseline_mean": 1.0351632100000001,
+      "baseline_sd": 0.02801370692324949,
+      "effect": 0.24617908999999982,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.23942635,
+        0.2522765100000002
+      ],
+      "interval_t": [
+        0.23955192223744878,
+        0.2528062577625509
+      ],
+      "interval_decision": [
+        0.23942635,
+        0.2528062577625509
+      ],
+      "threshold": 0.02,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "net_output_Y",
+        "minimum_meaningful_effect": 0.02,
+        "observed": 0.246179,
+        "resolved": true
+      },
+      "findings": []
+    },
+    "C3_G5_Y_vs_RT_random_thinning": {
+      "metric": "net_output_Y",
+      "design": "paired",
+      "n_method": 100,
+      "n_baseline": 100,
+      "method_mean": 1.2813423,
+      "method_sd": 0.01272801984210466,
+      "baseline_mean": 1.14386006,
+      "baseline_sd": 0.012290225991642976,
+      "effect": 0.13748223999999998,
+      "confidence": 0.9996296296296296,
+      "interval_bootstrap": [
+        0.1359916499999998,
+        0.13897632999999998
+      ],
+      "interval_t": [
+        0.13599804488808445,
+        0.1389664351119155
+      ],
+      "interval_decision": [
+        0.1359916499999998,
+        0.13897632999999998
+      ],
+      "threshold": 0.02,
+      "status": "resolved",
+      "pairs_at_or_above_threshold": 100,
+      "ledger_effect": {
+        "metric": "net_output_Y",
+        "minimum_meaningful_effect": 0.02,
+        "observed": 0.137482,
+        "resolved": true
+      },
+      "findings": []
+    }
+  }
+}

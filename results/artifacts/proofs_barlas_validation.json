@@ -1,0 +1,250 @@
+{
+  "sympy_exit_0": true,
+  "sympy_stdout_tail": [
+    "SymPy proof verification: MATH_VERIFIED (5 items verified, 0 mismatches with canonical_org_model.py)"
+  ],
+  "probes_exit_0": true,
+  "probes_stdout_tail": [
+    "Canonical boundary probes (seed=20261119): 1000/1000 passed, 0 counterexamples, strict [0,1] forward invariance verified."
+  ],
+  "barlas_dimensional_symbols_checked": 62,
+  "barlas_dimensional_mismatches": 0,
+  "barlas_dt_checks": [
+    {
+      "d_test": 0.35,
+      "method": "Euler",
+      "dt": 0.5,
+      "max_transient_abs_diff_S": 0.00110912,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": false,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.35,
+      "method": "Euler",
+      "dt": 0.25,
+      "max_transient_abs_diff_S": 0.00054601,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": true,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.35,
+      "method": "Euler",
+      "dt": 0.1,
+      "max_transient_abs_diff_S": 0.00021641,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": true,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.35,
+      "method": "Euler",
+      "dt": 0.05,
+      "max_transient_abs_diff_S": 0.00010788,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": true,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.35,
+      "method": "Euler",
+      "dt": 0.02,
+      "max_transient_abs_diff_S": 4.307e-05,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": true,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.35,
+      "method": "RK4",
+      "dt": 0.1,
+      "max_transient_abs_diff_S": 0.0,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": true,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.75,
+      "method": "Euler",
+      "dt": 0.5,
+      "max_transient_abs_diff_S": 0.01172879,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": false,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.75,
+      "method": "Euler",
+      "dt": 0.25,
+      "max_transient_abs_diff_S": 0.00575879,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": false,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.75,
+      "method": "Euler",
+      "dt": 0.1,
+      "max_transient_abs_diff_S": 0.00227904,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": false,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.75,
+      "method": "Euler",
+      "dt": 0.05,
+      "max_transient_abs_diff_S": 0.00113551,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": false,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.75,
+      "method": "Euler",
+      "dt": 0.02,
+      "max_transient_abs_diff_S": 0.00045325,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": true,
+      "steady_pass_lt_1e6": true
+    },
+    {
+      "d_test": 0.75,
+      "method": "RK4",
+      "dt": 0.1,
+      "max_transient_abs_diff_S": 0.0,
+      "steady_abs_diff_S": 0.0,
+      "steady_abs_diff_Q": 0.0,
+      "transient_pass_lt_1e3": true,
+      "steady_pass_lt_1e6": true
+    }
+  ],
+  "barlas_extreme_conditions": [
+    {
+      "case": "EC01_zero_delegation",
+      "d": 0.0,
+      "S_end": 0.935238,
+      "Q_end": 0.787333,
+      "u_end": 0.0,
+      "Y_end": 1.0,
+      "expected": "Q >= 0.75, u == 0",
+      "pass": true
+    },
+    {
+      "case": "EC02_full_delegation",
+      "d": 1.0,
+      "S_end": 0.169,
+      "Q_end": 0.460046,
+      "u_end": 1.0,
+      "Y_end": 0.454739,
+      "expected": "u == 1.0, S collapses < 0.60",
+      "pass": true
+    },
+    {
+      "case": "EC03_zero_arrivals",
+      "d": 0.75,
+      "S_end": 0.817265,
+      "Q_end": 0.746043,
+      "u_end": 0.0,
+      "Y_end": 0.0,
+      "expected": "u == 0, Y == 0, no collapse",
+      "pass": true
+    },
+    {
+      "case": "EC04_minimal_bandwidth_floor",
+      "d": 0.75,
+      "S_end": 0.19175,
+      "Q_end": 0.46,
+      "u_end": 1.0,
+      "Y_end": 0.719296,
+      "expected": "B_av hits 0.15 floor, u == 1.0, bounded S in [0, 1]",
+      "pass": true
+    },
+    {
+      "case": "EC05_zero_ai_boost",
+      "d": 0.75,
+      "S_end": 0.191885,
+      "Q_end": 0.468932,
+      "u_end": 1.0,
+      "Y_end": 0.443409,
+      "expected": "bounded S, Q in [0, 1]",
+      "pass": true
+    },
+    {
+      "case": "EC06_zero_turnover",
+      "d": 0.75,
+      "S_end": 0.935,
+      "Q_end": 0.746788,
+      "u_end": 1.0,
+      "Y_end": 1.471071,
+      "expected": "S stays 0.935",
+      "pass": true
+    },
+    {
+      "case": "EC07_full_turnover",
+      "d": 0.75,
+      "S_end": 0.19175,
+      "Q_end": 0.460516,
+      "u_end": 1.0,
+      "Y_end": 0.720648,
+      "expected": "S bounded in [0, 1], finite",
+      "pass": true
+    },
+    {
+      "case": "EC08_zero_initial_S",
+      "d": 0.0,
+      "S_end": 0.935238,
+      "Q_end": 0.787333,
+      "u_end": 0.0,
+      "Y_end": 1.0,
+      "expected": "S recovers >= 0.50 at d=0",
+      "pass": true
+    },
+    {
+      "case": "EC09_unit_initial_S",
+      "d": 0.0,
+      "S_end": 0.935238,
+      "Q_end": 0.787333,
+      "u_end": 0.0,
+      "Y_end": 1.0,
+      "expected": "S remains in [0, 1], Q <= 1",
+      "pass": true
+    },
+    {
+      "case": "EC10_zero_mentoring",
+      "d": 0.0,
+      "S_end": 0.26,
+      "Q_end": 0.551,
+      "u_end": 0.0,
+      "Y_end": 1.0,
+      "expected": "S drops to solo floor J0+alpha_p",
+      "pass": true
+    }
+  ],
+  "barlas_extreme_all_pass": true,
+  "runtime_sec": 29.784,
+  "barlas_symbol_audit_tool": "symbol_table.py strict option (exit 0)",
+  "barlas_dt_transient_pass_rk4_and_dt002": true,
+  "barlas_dt_steady_pass_lt_1e6": true,
+  "barlas_validation": {
+    "status": "PASS",
+    "symbol_audit_pass": true,
+    "required_transient_rows": 4,
+    "rk4_dt_010_and_euler_dt_002_transient_pass": true,
+    "all_steady_checks_pass": true,
+    "all_extreme_conditions_pass": true,
+    "scope": "RK4 dt 0.10 and Euler dt 0.02 transient accuracy, all listed steady checks, dimensional symbols, and ten extreme conditions"
+  }
+}

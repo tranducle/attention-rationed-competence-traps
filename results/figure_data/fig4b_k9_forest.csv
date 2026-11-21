@@ -1,0 +1,9 @@
+y,channel,label,delta,lo,hi
+1,Both channels zero (kappa0=sigma0=0),Both channels zero,0.0012,-0.0014,0.0038
+2,R6b: sigma0 = 0 (mod - pool),Zero coaching ($\sigma_0=0$),0.0646,0.0614,0.0678
+3,R6a: kappa0 = 0 (mod - pool),Zero context ($\kappa_0=0$),0.0978,0.0946,0.101
+4,Canon (mod - pool),Canon: Mod vs Pool,0.169,0.1662,0.172
+5,Selective hub (mod - cent_sel),Selective hub (35\%),0.1224,0.1186,0.126
+6,Role-balanced hub (mod - cent_rb),Role-balanced hub,0.1372,0.1344,0.14
+7,Pass-conserved hub (mod - cent_pc),Pass-conserved hub,0.1904,0.1856,0.195
+8,Canon (mod - cent),Canon: Mod vs Cent,0.2432,0.2392,0.247

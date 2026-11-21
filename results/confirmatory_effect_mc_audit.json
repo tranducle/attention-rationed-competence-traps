@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "primary_resamples": 10000,
+    "reference_resamples": 100000,
+    "endpoint_tolerance": 0.005,
+    "seed": 20261119
+  },
+  "all_adequate": true,
+  "contrasts": {
+    "C1_K3_hyst_vs_tau0": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.21345027970666602,
+        0.21922122029333396
+      ],
+      "reference_interval_decision": [
+        0.21345027970666602,
+        0.21922122029333396
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C1_K4_zero_tau_v": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.2855044671360306,
+        0.2855168499999999
+      ],
+      "reference_interval_decision": [
+        0.2855044671360306,
+        0.2855168328639691
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        1.7136030761033538e-08
+      ],
+      "adequate": true
+    },
+    "C1_K4_zero_delta": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.28343581767065756,
+        0.28515802232934234
+      ],
+      "reference_interval_decision": [
+        0.28343581767065756,
+        0.28515802232934234
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C1_K4_coach_relief_only": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.20240766677872593,
+        0.2047588932212739
+      ],
+      "reference_interval_decision": [
+        0.20240766677872593,
+        0.2047588932212739
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C1_K4_verify_relief_only": {
+      "primary_status": "below_threshold",
+      "reference_status": "below_threshold",
+      "primary_interval_decision": [
+        0.06657446713603075,
+        0.06658685000000003
+      ],
+      "reference_interval_decision": [
+        0.06657446713603075,
+        0.06658683286396928
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        1.713603074715575e-08
+      ],
+      "adequate": true
+    },
+    "C1_K4_external_replacement": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.2835732714634958,
+        0.28529394853650397
+      ],
+      "reference_interval_decision": [
+        0.2835732714634958,
+        0.28529394853650397
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C2_K8_poisson_N15_mod_vs_maxrival": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.1402990654379954,
+        0.1521009345620046
+      ],
+      "reference_interval_decision": [
+        0.1402990654379954,
+        0.1521009345620046
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C2_K8_poisson_N30_mod_vs_maxrival": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.1490472222200576,
+        0.15979999999999994
+      ],
+      "reference_interval_decision": [
+        0.1490472222200576,
+        0.15975277777994226
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        4.722222005767995e-05
+      ],
+      "adequate": true
+    },
+    "C2_K8_poisson_N60_mod_vs_maxrival": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.15026876816702267,
+        0.15980000000000005
+      ],
+      "reference_interval_decision": [
+        0.15026876816702267,
+        0.15973123183297738
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        6.87681670226703e-05
+      ],
+      "adequate": true
+    },
+    "C2_K8_poisson_N120_mod_vs_maxrival": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.14624809259057245,
+        0.15615190740942744
+      ],
+      "reference_interval_decision": [
+        0.14624809259057245,
+        0.15619999999999995
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        4.8092590572507143e-05
+      ],
+      "adequate": true
+    },
+    "C2_K8_poisson_N30_mod_vs_mat": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.14919261681146834,
+        0.16040738318853154
+      ],
+      "reference_interval_decision": [
+        0.14919261681146834,
+        0.16040738318853154
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C2_K8_poisson_N30_mod_vs_pool": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.16361703377736495,
+        0.17438296622263502
+      ],
+      "reference_interval_decision": [
+        0.16361703377736495,
+        0.17438296622263502
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C2_K8_poisson_N30_mod_vs_cent": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.2358839096467574,
+        0.25051609035324246
+      ],
+      "reference_interval_decision": [
+        0.2358839096467574,
+        0.25051609035324246
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C2_K8_bursty_N120_mod_vs_maxrival": {
+      "primary_status": "below_threshold",
+      "reference_status": "below_threshold",
+      "primary_interval_decision": [
+        0.0358,
+        0.07344275181604905
+      ],
+      "reference_interval_decision": [
+        0.0378,
+        0.07344275181604905
+      ],
+      "endpoint_abs_shift": [
+        0.0020000000000000018,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_G1_unmanaged": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.2536730399999999,
+        0.25478142149260263
+      ],
+      "reference_interval_decision": [
+        0.25369490999999994,
+        0.25478142149260263
+      ],
+      "endpoint_abs_shift": [
+        2.1870000000034917e-05,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_G2_static_hitl": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.22013699198376513,
+        0.22188088801623473
+      ],
+      "reference_interval_decision": [
+        0.22013699198376513,
+        0.22188088801623473
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_G2_priority": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.22180407999999996,
+        0.2228778969511668
+      ],
+      "reference_interval_decision": [
+        0.22181904999999996,
+        0.2228778969511668
+      ],
+      "endpoint_abs_shift": [
+        1.4970000000003036e-05,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_RA_routing_alone": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.14341832222443876,
+        0.14614607777556096
+      ],
+      "reference_interval_decision": [
+        0.14341832222443876,
+        0.14614607777556096
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_QA_matched_quota": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.24761224999999992,
+        0.2486715182514982
+      ],
+      "reference_interval_decision": [
+        0.2476293899999999,
+        0.2486715182514982
+      ],
+      "endpoint_abs_shift": [
+        1.7139999999971067e-05,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_FL_fixed_g_frozen": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.1996392199999999,
+        0.20063143943416947
+      ],
+      "reference_interval_decision": [
+        0.19966198000000002,
+        0.20063143943416947
+      ],
+      "endpoint_abs_shift": [
+        2.2760000000121572e-05,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_FL_frozen_learning": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.10962630305403602,
+        0.11167068999999996
+      ],
+      "reference_interval_decision": [
+        0.10962630305403602,
+        0.11161743694596378
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        5.325305403618141e-05
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_RT_fixed_g_placebo": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.10040784999999997,
+        0.10132851999999992
+      ],
+      "reference_interval_decision": [
+        0.10040922024903817,
+        0.1013175997509618
+      ],
+      "endpoint_abs_shift": [
+        1.3702490382072607e-06,
+        1.0920249038121055e-05
+      ],
+      "adequate": true
+    },
+    "C3_G5_vs_RT_random_thinning": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.08348068000000008,
+        0.08510257780505738
+      ],
+      "reference_interval_decision": [
+        0.08349446219494248,
+        0.08510965000000015
+      ],
+      "endpoint_abs_shift": [
+        1.3782194942399406e-05,
+        7.072194942767118e-06
+      ],
+      "adequate": true
+    },
+    "C3_G5_Y_vs_G0_unassisted": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.31757587527870595,
+        0.32371537000000006
+      ],
+      "reference_interval_decision": [
+        0.31757587527870595,
+        0.32365654472129396
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        5.882527870609833e-05
+      ],
+      "adequate": true
+    },
+    "C3_G5_Y_vs_QA_quota_alone": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.2158395529469248,
+        0.22816926705307483
+      ],
+      "reference_interval_decision": [
+        0.2158395529469248,
+        0.22816926705307483
+      ],
+      "endpoint_abs_shift": [
+        0.0,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_Y_vs_EA_ex_ante": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.23942635,
+        0.2528062577625509
+      ],
+      "reference_interval_decision": [
+        0.23955192223744878,
+        0.2528062577625509
+      ],
+      "endpoint_abs_shift": [
+        0.00012557223744877333,
+        0.0
+      ],
+      "adequate": true
+    },
+    "C3_G5_Y_vs_RT_random_thinning": {
+      "primary_status": "resolved",
+      "reference_status": "resolved",
+      "primary_interval_decision": [
+        0.1359916499999998,
+        0.13897632999999998
+      ],
+      "reference_interval_decision": [
+        0.13599804488808445,
+        0.1389664351119155
+      ],
+      "endpoint_abs_shift": [
+        6.394888084654271e-06,
+        9.89488808447736e-06
+      ],
+      "adequate": true
+    }
+  }
+}

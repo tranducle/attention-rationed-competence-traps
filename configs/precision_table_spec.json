@@ -1,0 +1,218 @@
+[
+  {
+    "index": 1,
+    "id": "C1_K3_hyst_vs_tau0",
+    "reported_contrast": "Mech.: Modular hyst. vs $\\\\tau_v = 0$ ($N=30$)",
+    "metric": "$\\\\max Q_{\\\\mathrm{hyst}}$",
+    "effect_str": "+0.2163",
+    "interval_str": "[+0.2135, +0.2192]"
+  },
+  {
+    "index": 2,
+    "id": "C1_K4_zero_tau_v",
+    "reported_contrast": "Mech.: Zero $\\\\tau_v$ vs unmanaged ($d=0.75$)",
+    "metric": "$Q$",
+    "effect_str": "+0.2855",
+    "interval_str": "[+0.2855, +0.2855]"
+  },
+  {
+    "index": 3,
+    "id": "C1_K4_zero_delta",
+    "reported_contrast": "Mech.: Zero $\\\\delta$ vs unmanaged ($d=0.75$)",
+    "metric": "$Q$",
+    "effect_str": "+0.2843",
+    "interval_str": "[+0.2834, +0.2852]"
+  },
+  {
+    "index": 4,
+    "id": "C1_K4_coach_relief_only",
+    "reported_contrast": "Mech.: Joint coach + absorp. relief ($d=0.75$)",
+    "metric": "$Q$",
+    "effect_str": "+0.2036",
+    "interval_str": "[+0.2024, +0.2048]"
+  },
+  {
+    "index": 5,
+    "id": "C1_K4_verify_relief_only",
+    "reported_contrast": "Mech.: Verify-fatigue relief alone ($d=0.75$)",
+    "metric": "$Q$",
+    "effect_str": "+0.0666",
+    "interval_str": "[+0.0666, +0.0666]"
+  },
+  {
+    "index": 6,
+    "id": "C1_K4_external_replacement",
+    "reported_contrast": "Mech.: External senior replacement ($d=0.75$)",
+    "metric": "$Q$",
+    "effect_str": "+0.2844",
+    "interval_str": "[+0.2836, +0.2853]"
+  },
+  {
+    "index": 7,
+    "id": "C2_K8_poisson_N15_mod_vs_maxrival",
+    "reported_contrast": "Topo.: Poisson $N=15$, $\\\\mathrm{mod} - \\\\max\\\\text{ rival}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.1462",
+    "interval_str": "[+0.1403, +0.1521]"
+  },
+  {
+    "index": 8,
+    "id": "C2_K8_poisson_N30_mod_vs_maxrival",
+    "reported_contrast": "Topo.: Poisson $N=30$, $\\\\mathrm{mod} - \\\\max\\\\text{ rival}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.1544",
+    "interval_str": "[+0.1490, +0.1598]"
+  },
+  {
+    "index": 9,
+    "id": "C2_K8_poisson_N60_mod_vs_maxrival",
+    "reported_contrast": "Topo.: Poisson $N=60$, $\\\\mathrm{mod} - \\\\max\\\\text{ rival}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.1550",
+    "interval_str": "[+0.1503, +0.1598]"
+  },
+  {
+    "index": 10,
+    "id": "C2_K8_poisson_N120_mod_vs_maxrival",
+    "reported_contrast": "Topo.: Poisson $N=120$, $\\\\mathrm{mod} - \\\\max\\\\text{ rival}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.1512",
+    "interval_str": "[+0.1462, +0.1562]"
+  },
+  {
+    "index": 11,
+    "id": "C2_K8_poisson_N30_mod_vs_mat",
+    "reported_contrast": "Topo.: Poisson $N=30$, $\\\\mathrm{mod} - \\\\mathrm{mat}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.1548",
+    "interval_str": "[+0.1492, +0.1604]"
+  },
+  {
+    "index": 12,
+    "id": "C2_K8_poisson_N30_mod_vs_pool",
+    "reported_contrast": "Topo.: Poisson $N=30$, $\\\\mathrm{mod} - \\\\mathrm{pool}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.1690",
+    "interval_str": "[+0.1636, +0.1744]"
+  },
+  {
+    "index": 13,
+    "id": "C2_K8_poisson_N30_mod_vs_cent",
+    "reported_contrast": "Topo.: Poisson $N=30$, $\\\\mathrm{mod} - \\\\mathrm{cent}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.2432",
+    "interval_str": "[+0.2359, +0.2505]"
+  },
+  {
+    "index": 14,
+    "id": "C2_K8_bursty_N120_mod_vs_maxrival",
+    "reported_contrast": "Topo.: Bursty $N=120$, $\\\\mathrm{mod} - \\\\max\\\\text{ rival}$",
+    "metric": "$d_{\\\\mathrm{col}}$",
+    "effect_str": "+0.0564",
+    "interval_str": "[+0.0358, +0.0734]"
+  },
+  {
+    "index": 15,
+    "id": "C3_G5_vs_G1_unmanaged",
+    "reported_contrast": "Gov.: $G_5 - G_1$ (unmanaged)",
+    "metric": "$Q$",
+    "effect_str": "+0.2542",
+    "interval_str": "[+0.2537, +0.2548]"
+  },
+  {
+    "index": 16,
+    "id": "C3_G5_vs_G2_static_hitl",
+    "reported_contrast": "Gov.: $G_5 - G_2$ (static HITL)",
+    "metric": "$Q$",
+    "effect_str": "+0.2210",
+    "interval_str": "[+0.2201, +0.2219]"
+  },
+  {
+    "index": 17,
+    "id": "C3_G5_vs_G2_priority",
+    "reported_contrast": "Gov.: $G_5 - G_{2,\\\\mathrm{prio}}$ (priority HITL)",
+    "metric": "$Q$",
+    "effect_str": "+0.2224",
+    "interval_str": "[+0.2218, +0.2229]"
+  },
+  {
+    "index": 18,
+    "id": "C3_G5_vs_RA_routing_alone",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{RA}$ (routing alone)",
+    "metric": "$Q$",
+    "effect_str": "+0.1448",
+    "interval_str": "[+0.1434, +0.1461]"
+  },
+  {
+    "index": 19,
+    "id": "C3_G5_vs_QA_matched_quota",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{QA}_{\\\\mathrm{match}}$ (matched quota)",
+    "metric": "$Q$",
+    "effect_str": "+0.2482",
+    "interval_str": "[+0.2476, +0.2487]"
+  },
+  {
+    "index": 20,
+    "id": "C3_G5_vs_FL_fixed_g_frozen",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{FL}_{\\\\mathrm{fixed}}$ (frozen learn.)",
+    "metric": "$Q$",
+    "effect_str": "+0.2001",
+    "interval_str": "[+0.1996, +0.2006]"
+  },
+  {
+    "index": 21,
+    "id": "C3_G5_vs_FL_frozen_learning",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{FL}_{\\\\mathrm{tuned}}$ (frozen learn.)",
+    "metric": "$Q$",
+    "effect_str": "+0.1106",
+    "interval_str": "[+0.1096, +0.1117]"
+  },
+  {
+    "index": 22,
+    "id": "C3_G5_vs_RT_fixed_g_placebo",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{RT}_{\\\\mathrm{fixed}}$ (random thin.)",
+    "metric": "$Q$",
+    "effect_str": "+0.1009",
+    "interval_str": "[+0.1004, +0.1013]"
+  },
+  {
+    "index": 23,
+    "id": "C3_G5_vs_RT_random_thinning",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{RT}_{\\\\mathrm{tuned}}$ (random thin.)",
+    "metric": "$Q$",
+    "effect_str": "+0.0843",
+    "interval_str": "[+0.0835, +0.0851]"
+  },
+  {
+    "index": 24,
+    "id": "C3_G5_Y_vs_G0_unassisted",
+    "reported_contrast": "Gov.: $G_5 - G_0$ (unassisted ref.)",
+    "metric": "$Y$",
+    "effect_str": "+0.3206",
+    "interval_str": "[+0.3176, +0.3237]"
+  },
+  {
+    "index": 25,
+    "id": "C3_G5_Y_vs_QA_quota_alone",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{QA}_{\\\\mathrm{free}}$ (free quota)",
+    "metric": "$Y$",
+    "effect_str": "+0.2220",
+    "interval_str": "[+0.2158, +0.2282]"
+  },
+  {
+    "index": 26,
+    "id": "C3_G5_Y_vs_EA_ex_ante",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{EA}_{\\\\mathrm{ex\\\\text{-}ante}}$ (ex-ante cap)",
+    "metric": "$Y$",
+    "effect_str": "+0.2462",
+    "interval_str": "[+0.2394, +0.2528]"
+  },
+  {
+    "index": 27,
+    "id": "C3_G5_Y_vs_RT_random_thinning",
+    "reported_contrast": "Gov.: $G_5 - \\\\mathrm{RT}_{\\\\mathrm{tuned}}$ (random thin.)",
+    "metric": "$Y$",
+    "effect_str": "+0.1375",
+    "interval_str": "[+0.1360, +0.1390]"
+  }
+]

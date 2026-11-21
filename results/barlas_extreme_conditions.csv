@@ -1,0 +1,11 @@
+case,d,S_end,Q_end,u_end,Y_end,expected,pass
+EC01_zero_delegation,0.0,0.935238,0.787333,0.0,1.0,"Q >= 0.75, u == 0",True
+EC02_full_delegation,1.0,0.169,0.460046,1.0,0.454739,"u == 1.0, S collapses < 0.60",True
+EC03_zero_arrivals,0.75,0.817265,0.746043,0.0,0.0,"u == 0, Y == 0, no collapse",True
+EC04_minimal_bandwidth_floor,0.75,0.19175,0.46,1.0,0.719296,"B_av hits 0.15 floor, u == 1.0, bounded S in [0, 1]",True
+EC05_zero_ai_boost,0.75,0.191885,0.468932,1.0,0.443409,"bounded S, Q in [0, 1]",True
+EC06_zero_turnover,0.75,0.935,0.746788,1.0,1.471071,S stays 0.935,True
+EC07_full_turnover,0.75,0.19175,0.460516,1.0,0.720648,"S bounded in [0, 1], finite",True
+EC08_zero_initial_S,0.0,0.935238,0.787333,0.0,1.0,S recovers >= 0.50 at d=0,True
+EC09_unit_initial_S,0.0,0.935238,0.787333,0.0,1.0,"S remains in [0, 1], Q <= 1",True
+EC10_zero_mentoring,0.0,0.26,0.551,0.0,1.0,S drops to solo floor J0+alpha_p,True
